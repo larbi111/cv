@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>no title</title>
+</head>
+
+<body>
+  <header>
+    <h2>this is header</h2>
+  </header>
+  <br>
+  <nav>
+    <h2>this is navigation</h2>
+  </nav>
+  <br>
+  <main>
+    <h2>this is main content</h2>
+    <br>
+    <section>
+      <h2>this is section</h2>
+      <br>
+      <h2>figure element</h2>
+      <figure height="330" wdith="250">
+            <!--  <figure>
+            for images and their caption
+            or audio and its caption
+            or video and its caption
+              -->
+        <img src="C:\larbi web development\html-personal site\larbi.jpg" alt="My picture" height="250" wdith="180">*
+        <figcaption>the most beautiful human on earth</figcaption>
+      </figure>
+    </section>
+    <br>
+    <section>
+      <figure>
+        <figcaption>look at this</figcaption>
+             <!--Video element
+           track => for text files
+           poster => for video poster
+            -->
+        <video controls poster=".jpg" height="250" wdith="180">
+          <source src="C:\Users\DELL\Videos\intagram\VID_74490505_154845_183.mp4" type="video/mp4">
+          Your browser does not support the <code>video</code>element
+          <track src="sampleSubtitles_en.srt" kind="subtitles" srclang="en" label="English"></track>
+        </video>
+        <audio controls src="">
+          Your browser does not support <code>audio</code>element
+        </audio>
+      </figure>
+    </section>
+    <br>
+    <section>
+
+
+    </section>
+  </main>
+  <br>
+
+    <!--Form element-->
+    <!--INput attributes
+      required
+      autofocus => default on it
+      minlength
+      maxlength
+      disabled => not sent to the server / can't edit it
+      readonly => can't edit it
+    -->
+    <form method="get">
+      <!--Radio buttons-->
+      <label for="os">Your Operating System:</label> <br>
+      <input id="Windows" type="radio" name="os" value="Windows" checked>
+      <label for="Windows">Windows</label><br>
+      <input id="Mac" type="radio" name="os" value="Mac">
+      <label for="Mac">Mac</label><br>
+      <input id="Linux" type="radio" name="os" value="Linux">
+      <label for="Linux">Linux</label><br>
+      <input type="reset" name="" value="reset">
+      <input type="submit" name="" value="submit">
+      <!--Select element-->
+      <label for="countries">What is your country:</label>
+      <select name="country" id="countries">
+        <option value="Afganistan">Afghanistan</option>
+        <option value="Albania">Albania</option>
+        <option value="Algeria">Algeria</option>
+        <option value="American Samoa">American Samoa</option>
+      </select><br>
+
+      <br>
+      <!-- Data List-->
+      <h3>this is a data list</h3>
+      <input list="programming" name="programming lan">
+      <datalist id="programming">
+        <option value="Python">
+        <option value="C">
+        <option value="C#">
+        <option value="C++">
+      </datalist>
+    </form>
+    <aside>
+      <h2>this is aside bar</h2>
+    </aside>
+    <br>
+    <footer>
+      <h2>this is footer</h2>
+      <!-- Some other elements:
+        code => just to let it know that it is a code
+        pre => leave just like it is writen in the code
+        q => For quotes
+        blockquote => make a quote a block
+        wbr => word break
+        bdi => remove the thing from page direction
+        iframe => to embed a site
+      -->
+      <code>
+        <pre>
+          x = 5
+          y = 7
+          print(x + y)
+        </pre>
+      </code>
+      <p><bdi>السلام</bdi> 2 welcome</p>
+      <iframe src="https:\\www.elzero.org" width="800" height="800"></iframe>
+    </footer>
+</body>
+
+</html>
