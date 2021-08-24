@@ -1,0 +1,20 @@
+body{
+    background: url(https://images.freeimages.com/images/large-previews/a3b/website-rays-background-pattern-1637863.png);
+  
+}
+
+hr{
+    width: 5%;
+    border-color: #368B85;
+    border-width: 5px;
+    border-style: none;
+    border-bottom-style: dotted;
+}
+
+h1{
+    color: #368B85;
+}
+
+h2, h4{
+    color: #986D8E;
+}
