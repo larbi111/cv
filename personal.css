@@ -18,3 +18,7 @@ h1{
 h2, h4{
     color: #986D8E;
 }
+
+img{
+    border-radius: 10%;
+}
